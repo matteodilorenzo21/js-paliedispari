@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://repository-images.githubusercontent.com/214671270/23f88b80-ed18-11e9-8a21-0a636b193f08");
+    background-size: cover;
+    background-position: center;
+}
+
+.col-8 {
+    height: 300px;
+}
+
+.card {
+    height: 100%;
+}
