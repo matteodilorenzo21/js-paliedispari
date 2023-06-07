@@ -12,6 +12,7 @@ function checkPalindrome(word) {
 
 // Convertiamo la parola in minuscolo e rimuoviamo gli spazi
 word = word.toLowerCase().replace(/\s/g, '');
+console.log(word);
 
 
 for (let i = 0; i < word.length / 2; i++) {
@@ -73,7 +74,7 @@ playBtn.addEventListener('click', function() {
     const userNumber = parseInt(document.getElementById('user-number').value);
   
     // Verificare se il numero inserito dall'utente è maggiore di 5
-    if (userNumber > 5) {
+    if (userNumber > 5 || userNumber < 1 || isNaN(userNumber)) {
 
       // Se il numero è maggiore di 5, mostrare un messaggio di errore
       const playResult = document.getElementById('play-result');
